@@ -1,40 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="120"
-     viewBox="0 0 1200 120">
+     width="1200" height="160" viewBox="0 0 1200 160">
 
 <defs>
-  <linearGradient id="wine" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#64243D"/>
-    <stop offset="50%" stop-color="#A64D69"/>
-    <stop offset="100%" stop-color="#E5A1B3"/>
+  <linearGradient id="bg">
+    <stop stop-color="#10090D"/>
+    <stop offset=".5" stop-color="#28101B"/>
+    <stop offset="1" stop-color="#4A182B"/>
+  </linearGradient>
+
+  <linearGradient id="rose">
+    <stop stop-color="#64243D"/>
+    <stop offset=".5" stop-color="#A64D69"/>
+    <stop offset="1" stop-color="#E7A0B4"/>
   </linearGradient>
 </defs>
 
-<rect width="1200" height="120" rx="16" fill="#10090D"/>
+<rect width="1200" height="160" rx="18" fill="url(#bg)"/>
 
-<path d="M0 20 Q300 100 600 30 T1200 55"
-      stroke="url(#wine)"
-      stroke-width="2"
-      fill="none"
-      opacity=".8"/>
+<path d="M0 30 Q300 130 600 40 T1200 80"
+      stroke="url(#rose)" stroke-width="3"
+      fill="none" stroke-dasharray="8 10">
+  <animate attributeName="stroke-dashoffset"
+           from="0" to="-100" dur="6s"
+           repeatCount="indefinite"/>
+</path>
 
-<text x="600" y="70"
-      text-anchor="middle"
-      fill="#F8EDEF"
-      font-family="Arial, sans-serif"
-      font-size="22"
-      font-weight="bold"
-      letter-spacing="2">
+<circle cx="200" cy="80" r="5" fill="#E7A0B4">
+  <animate attributeName="cy"
+           values="70;95;70" dur="3s"
+           repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1000" cy="90" r="5" fill="#E7A0B4">
+  <animate attributeName="cy"
+           values="90;65;90" dur="3s"
+           repeatCount="indefinite"/>
+</circle>
+
+<text x="600" y="82" text-anchor="middle"
+      fill="#F8EDEF" font-family="Arial"
+      font-size="25" font-weight="bold"
+      letter-spacing="3">
   THANK YOU FOR VISITING
 </text>
 
-<text x="600" y="94"
-      text-anchor="middle"
-      fill="#D99AAE"
-      font-family="Arial, sans-serif"
-      font-size="12"
-      letter-spacing="3">
-  KEEP BUILDING • KEEP EXPLORING
+<text x="600" y="115" text-anchor="middle"
+      fill="#E7A0B4" font-family="Arial"
+      font-size="14" letter-spacing="4">
+  KEEP BUILDING • KEEP EXPLORING • KEEP GROWING
 </text>
 
 </svg>
