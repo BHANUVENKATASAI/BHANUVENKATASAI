@@ -275,7 +275,7 @@
   </text>
 
   <rect x="650" y="660" width="230" height="35" rx="8" class="badge"/>
-  <text x="765" y="673" text-anchor="middle" class="skill">DS &amp; ALGORITHMS</text>
+  <text x="765" y="683" text-anchor="middle" class="skill">DS &amp; ALGORITHMS</text>
 
   <rect x="892" y="660" width="85" height="35" rx="8" class="badge"/>
   <text x="934" y="683" text-anchor="middle" class="skill">OOP</text>
