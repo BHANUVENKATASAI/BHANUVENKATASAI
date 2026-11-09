@@ -1,23 +1,25 @@
 <h1 align="center">Hi 👋, I'm Bhanu Venkat Sai</h1>
 
-<h3 align="center">
-  Java Full Stack Developer | AI/ML Enthusiast | Computer Science Graduate
-</h3>
+<h3 align="center">Java Full Stack Developer | AI/ML Enthusiast | CSE Graduate</h3>
 
 <p align="center">
-  Building intelligent applications, solving real-world problems,
-  and continuously learning to become a better engineer.
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Java+Full+Stack+Developer;AI%2FML+Enthusiast;Python+%7C+Java+%7C+React;Building+Intelligent+Applications;Always+Learning+%26+Building!" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BHANUVENKATASAI&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/BHANUVENKATASAI?label=Followers&style=for-the-badge&color=blue" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/j-bhanuvenkatasai-3b5269264">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="mailto:mail2bhanuvenkatasai@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail" />
   </a>
   <a href="https://github.com/BHANUVENKATASAI">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" />
   </a>
 </p>
 
@@ -25,131 +27,175 @@
 
 ## 👨‍💻 About Me
 
-I'm a 2026 Computer Science and Engineering graduate from
-Kalasalingam Academy of Research and Education, passionate about
-software development, Artificial Intelligence, and Machine Learning.
+I'm a 2026 Computer Science and Engineering graduate from **Kalasalingam Academy of Research and Education**.
 
 - 💻 Interested in Java Full Stack Development and AI/ML Engineering.
-- ☕ Working with Java, Spring Boot, React.js, Python, and SQL.
-- 🤖 Exploring Machine Learning, Generative AI, and Computer Vision.
-- 🧠 Strengthening Data Structures, Algorithms, DBMS, OS, and Computer Networks.
-- 🚀 Building projects that combine software engineering with intelligent solutions.
-- 🎯 Preparing for GATE 2027 – Computer Science as my primary focus,
-  with Data Science and AI as a secondary focus.
-- 🌱 Continuously improving my problem-solving and development skills.
-- 🤝 Open to fresher opportunities, internships, and collaborations.
+- ☕ Working with Java, Spring Boot, React, Python and SQL.
+- 🤖 Exploring Machine Learning, Generative AI and Computer Vision.
+- 🧠 Strengthening DSA, DBMS, Operating Systems and Computer Networks.
+- 🎯 Preparing for GATE 2027 — CS primary, DA secondary.
+- 🚀 Interested in building useful and intelligent applications.
+- 🤝 Open to fresher opportunities, internships and collaborations.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Programming Languages
+
 <p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=java,python,js,html,css,mysql" />
 </p>
 
 ### Frameworks & Development
+
 <p>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge" />
+  <img src="https://skillicons.dev/icons?i=spring,react,flask,fastapi" />
 </p>
 
-### AI, Machine Learning & Data Science
+### AI / ML & Data Science
+
 <p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
+  <br/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
 </p>
 
-### Databases & Tools
+### Tools & Databases
+
 <p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postgres,mysql" />
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-### 1. Annapurna – Smart Food Waste Reduction System
-A smart food management application designed to reduce food waste
-through inventory tracking, expiry monitoring, and AI-powered food recognition.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Tech:** React.js, Python, FastAPI, SQLAlchemy, YOLOv8
+<h3 align="center">🍱 Annapurna</h3>
 
-[View Repository](https://github.com/BHANUVENKATASAI/Annapurna-Smart-Food-Waste-Reduction-System)
+<p align="center">Smart Food Waste Reduction System</p>
 
-### 2. Anomaly Detection in Wearable Health Devices
-An ML-based system that identifies unusual patterns in wearable
-health data using Isolation Forest and provides automated alerts.
+<p>Food management application exploring inventory tracking, expiry monitoring and AI-powered food recognition.</p>
 
-**Tech:** Python, Flask, Pandas, Scikit-learn, Isolation Forest
+<strong>Tech:</strong> React, Python, FastAPI, SQLAlchemy, YOLOv8
 
-[View Repository](https://github.com/BHANUVENKATASAI/Anomaly_Detection_In_Healthdevices)
+<p align="center">
+<a href="https://github.com/BHANUVENKATASAI/Annapurna-Smart-Food-Waste-Reduction-System">
+<img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github" />
+</a>
+</p>
 
-### 3. Multimodal Emergency Response System
-An intelligent emergency monitoring solution combining image,
-audio, text, and sensor inputs to identify potential emergency situations.
+</td>
+<td width="50%" valign="top">
 
-**Tech:** Python, YOLOv8, Whisper, FastAPI, Computer Vision
+<h3 align="center">📊 Health Anomaly Detection</h3>
 
-[View Repository](https://github.com/BHANUVENKATASAI/Multimodal-Emergency-Response-System)
+<p align="center">Anomaly Detection in Wearable Health Devices</p>
+
+<p>Machine-learning project exploring unusual patterns in wearable-health data.</p>
+
+<strong>Tech:</strong> Python, Flask, Pandas, Scikit-learn
+
+<p align="center">
+<a href="https://github.com/BHANUVENKATASAI/Anomaly_Detection_In_Healthdevices">
+<img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github" />
+</a>
+</p>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+<h3>🚨 Multimodal Emergency Response System</h3>
+
+<p>Exploring visual and audio inputs for multimodal emergency-event understanding.</p>
+
+<strong>Tech:</strong> Python, YOLOv8, Whisper, FastAPI, Computer Vision
+
+<a href="https://github.com/BHANUVENKATASAI/Multimodal-Emergency-Response-System">
+<img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BHANUVENKATASAI&theme=tokyo-night&hide_border=true" width="95%" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BHANUVENKATASAI/BHANUVENKATASAI/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+</p>
 
 ---
 
 ## 🏆 Achievements & Certifications
 
-- 🥇 Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate.
-- 🏅 Team Lead – SDGATHON 25, achieved a Top 20 finish.
-- 📚 Completed CodeChef PRO lessons and projects in Design and Analysis
-  of Algorithms.
-- 🎓 B.Tech in Computer Science and Engineering – 2026 graduate.
+- 🥇 Oracle Cloud Infrastructure 2023 – AI Certified Foundations Associate.
+- 🏅 Team Lead – SDGATHON 25, team selected among the Top 20.
+- 📚 CodeChef PRO – Design and Analysis of Algorithms.
+- 🎓 B.Tech Computer Science and Engineering – 2026 graduate.
 
 ---
 
 ## 🎯 Current Focus
 
-- Mastering Java, Spring Boot, React.js, and Full Stack Development.
-- Improving DSA and competitive problem-solving skills.
-- Deepening knowledge of Machine Learning and Generative AI.
-- Preparing for GATE 2027 (CS primary, DA secondary).
-- Building strong projects and developing industry-ready engineering skills.
+| Area | Current Focus |
+|---|---|
+| Java | Core Java, OOP, Collections, Multithreading |
+| Full Stack | Spring Boot, React, REST APIs |
+| DSA | Problem-solving and coding practice |
+| AI/ML | Machine Learning, Deep Learning, Generative AI |
+| GATE 2027 | Computer Science primary, DA secondary |
+| Career | Software Engineering / Java / AI-ML roles |
 
 ---
 
-## 🤝 Let's Connect!
-
-I'm always interested in connecting with developers, recruiters,
-engineers, and people working on exciting technology.
-
-If you're working on something interesting or have an opportunity
-to collaborate, feel free to reach out!
+## 🤝 Let's Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/j-bhanuvenkatasai-3b5269264">
-    LinkedIn
-  </a> •
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
   <a href="mailto:mail2bhanuvenkatasai@gmail.com">
-    Email
-  </a> •
+    <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail" />
+  </a>
   <a href="https://github.com/BHANUVENKATASAI">
-    GitHub
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" />
   </a>
 </p>
 
-<h3 align="center">⭐ Learn • Build • Improve • Repeat ⭐</h3>
+<h3 align="center">⭐ Learn • Build • Innovate • Repeat ⭐</h3>
+
+<p align="center">
+  <i>"Consistency turns small efforts into remarkable achievements."</i>
+</p>
