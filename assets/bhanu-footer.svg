@@ -1,34 +1,40 @@
-<svg width="1200" height="120" viewBox="0 0 1200 120"
-     fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="120"
+     viewBox="0 0 1200 120">
 
 <defs>
-  <linearGradient id="footer" x1="0" y1="0" x2="1200" y2="120">
-    <stop stop-color="#1D4ED8"/>
-    <stop offset="0.5" stop-color="#6366F1"/>
-    <stop offset="1" stop-color="#7E22CE"/>
+  <linearGradient id="wine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#64243D"/>
+    <stop offset="50%" stop-color="#A64D69"/>
+    <stop offset="100%" stop-color="#E5A1B3"/>
   </linearGradient>
 </defs>
 
-<rect width="1200" height="120" rx="20" fill="#0F172A"/>
+<rect width="1200" height="120" rx="16" fill="#10090D"/>
 
-<path d="M0 15 Q300 100 600 20 T1200 60"
-      stroke="url(#footer)" stroke-width="3" opacity="0.8"/>
+<path d="M0 20 Q300 100 600 30 T1200 55"
+      stroke="url(#wine)"
+      stroke-width="2"
+      fill="none"
+      opacity=".8"/>
 
 <text x="600" y="70"
       text-anchor="middle"
-      fill="#E0E7FF"
+      fill="#F8EDEF"
       font-family="Arial, sans-serif"
       font-size="22"
-      font-weight="bold">
-  THANKS FOR VISITING MY PROFILE!
+      font-weight="bold"
+      letter-spacing="2">
+  THANK YOU FOR VISITING
 </text>
 
-<text x="600" y="95"
+<text x="600" y="94"
       text-anchor="middle"
-      fill="#A5B4FC"
+      fill="#D99AAE"
       font-family="Arial, sans-serif"
-      font-size="13">
-  KEEP LEARNING • KEEP BUILDING • KEEP GROWING
+      font-size="12"
+      letter-spacing="3">
+  KEEP BUILDING • KEEP EXPLORING
 </text>
 
 </svg>
