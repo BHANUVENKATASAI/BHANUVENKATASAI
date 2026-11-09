@@ -1,84 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub Analytics</title>
-  <desc id="desc">A midnight burgundy banner introducing GitHub statistics and programming language analytics.</desc>
+<h1 align="center">📊 GITHUB ANALYTICS</h1>
 
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#160A10"/>
-      <stop offset="55%" stop-color="#28101B"/>
-      <stop offset="100%" stop-color="#3A1425"/>
-    </linearGradient>
+<!-- Contribution Activity -->
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=BHANUVENKATASAI&bg_color=160A10&color=E7A1B1&line=CF6C85&point=F5E8EC&area=true&hide_border=true"
+    width="100%"
+    alt="Contribution Activity Graph"
+  />
+</p>
 
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A83D5B"/>
-      <stop offset="50%" stop-color="#E7A1B1"/>
-      <stop offset="100%" stop-color="#A83D5B"/>
-    </linearGradient>
+<!-- GitHub Stats -->
+<p align="center">
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&include_all_commits=true&hide_border=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC"
+    height="180"
+    alt="GitHub Statistics"
+  />
+  <img
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC"
+    height="180"
+    alt="Most Used Languages"
+  />
+</p>
 
-    <radialGradient id="glow">
-      <stop offset="0%" stop-color="#CF6C85" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#CF6C85" stop-opacity="0"/>
-    </radialGradient>
-
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
-  </defs>
-
-  <rect width="1200" height="210" rx="22" fill="url(#background)"/>
-  <rect x="1" y="1" width="1198" height="208" rx="21" fill="none" stroke="#713047" stroke-opacity="0.65"/>
-
-  <circle cx="1020" cy="90" r="180" fill="url(#glow)"/>
-  <circle cx="170" cy="180" r="130" fill="url(#glow)"/>
-
-  <!-- Decorative orbital lines -->
-  <g fill="none" stroke="#CF6C85" stroke-opacity="0.22">
-    <ellipse cx="1015" cy="105" rx="150" ry="65" transform="rotate(-18 1015 105)"/>
-    <ellipse cx="1015" cy="105" rx="115" ry="43" transform="rotate(-18 1015 105)"/>
-  </g>
-
-  <!-- Decorative data bars -->
-  <g transform="translate(930 68)" opacity="0.8">
-    <rect x="0" y="55" width="13" height="35" rx="5" fill="#A83D5B"/>
-    <rect x="23" y="35" width="13" height="55" rx="5" fill="#CF6C85"/>
-    <rect x="46" y="15" width="13" height="75" rx="5" fill="#E7A1B1"/>
-    <rect x="69" y="43" width="13" height="47" rx="5" fill="#A83D5B"/>
-    <rect x="92" y="25" width="13" height="65" rx="5" fill="#CF6C85"/>
-  </g>
-
-  <!-- Heading -->
-  <text x="70" y="85"
-        fill="#F5E8EC"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="42"
-        font-weight="700"
-        letter-spacing="2">
-    GITHUB ANALYTICS
-  </text>
-
-  <rect x="72" y="108" width="230" height="4" rx="2" fill="url(#accent)"/>
-
-  <text x="72" y="150"
-        fill="#D9B9C3"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="18"
-        letter-spacing="1.2">
-    CODE • CONSISTENCY • CONTRIBUTIONS
-  </text>
-
-  <text x="72" y="180"
-        fill="#A87989"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="13"
-        letter-spacing="2">
-    BHANU VENKAT SAI
-  </text>
-
-  <!-- Animated accent -->
-  <rect x="0" y="205" width="1200" height="5" rx="2" fill="url(#accent)" opacity="0.8">
-    <animate attributeName="opacity"
-             values="0.35;1;0.35"
-             dur="3s"
-             repeatCount="indefinite"/>
-  </rect>
-</svg>
+<!-- Contribution Streak -->
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&theme=dark&hide_border=true&background=160A10&ring=CF6C85&fire=E7A1B1&currStreakLabel=E7A1B1"
+    width="70%"
+    alt="GitHub Contribution Streak"
+  />
+</p>
