@@ -1,4 +1,4 @@
-```markdown
+
 <!-- BLUE & PURPLE PREMIUM GITHUB PROFILE -->
 
 <!-- HEADER BANNER -->
