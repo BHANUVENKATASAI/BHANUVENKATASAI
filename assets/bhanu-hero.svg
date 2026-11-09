@@ -1,0 +1,77 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300">
+    <stop stop-color="#07152F"/>
+    <stop offset="0.5" stop-color="#172554"/>
+    <stop offset="1" stop-color="#4C1D95"/>
+  </linearGradient>
+
+  <linearGradient id="text" x1="150" y1="80" x2="900" y2="220">
+    <stop stop-color="#60A5FA"/>
+    <stop offset="0.5" stop-color="#A78BFA"/>
+    <stop offset="1" stop-color="#C4B5FD"/>
+  </linearGradient>
+</defs>
+
+<rect width="1200" height="300" rx="24" fill="url(#background)"/>
+
+<circle cx="1030" cy="40" r="150" fill="#6366F1" opacity="0.13"/>
+<circle cx="1110" cy="250" r="130" fill="#A78BFA" opacity="0.12"/>
+<circle cx="100" cy="270" r="120" fill="#3B82F6" opacity="0.12"/>
+
+<path d="M0 240 Q300 160 600 250 T1200 190"
+      stroke="#A78BFA" stroke-opacity="0.2" stroke-width="2"/>
+
+<text x="80" y="105"
+      fill="#BFDBFE"
+      font-family="Arial, sans-serif"
+      font-size="19"
+      letter-spacing="5">
+  DEVELOPER • TECHNOLOGY ENTHUSIAST
+</text>
+
+<text x="80" y="165"
+      fill="url(#text)"
+      font-family="Arial, sans-serif"
+      font-size="53"
+      font-weight="bold">
+  BHANU VENKAT SAI
+</text>
+
+<text x="83" y="210"
+      fill="#E0E7FF"
+      font-family="Arial, sans-serif"
+      font-size="23">
+  Java Full Stack Developer | AI/ML Enthusiast
+</text>
+
+<text x="83" y="248"
+      fill="#BFDBFE"
+      font-family="Arial, sans-serif"
+      font-size="16">
+  BUILDING • LEARNING • INNOVATING
+</text>
+
+<rect x="890" y="100" width="210" height="90"
+      rx="18" stroke="#A78BFA" stroke-opacity="0.5"/>
+
+<text x="995" y="135"
+      text-anchor="middle"
+      fill="#C4B5FD"
+      font-family="Arial, sans-serif"
+      font-size="15">
+  CURRENT FOCUS
+</text>
+
+<text x="995" y="165"
+      text-anchor="middle"
+      fill="#FFFFFF"
+      font-family="Arial, sans-serif"
+      font-size="20"
+      font-weight="bold">
+  JAVA + AI/ML
+</text>
+
+</svg>
