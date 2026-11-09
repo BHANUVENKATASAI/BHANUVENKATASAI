@@ -53,7 +53,6 @@
     alt="GitHub Statistics"
   />
 </p>
-
 <!-- 02 CONTRIBUTION STREAK -->
 
 <h3 align="center">02 | CONTRIBUTION STREAK</h3>
@@ -65,7 +64,6 @@
     alt="GitHub Contribution Streak"
   />
 </p>
-
 <!-- 03 MOST USED PROGRAMMING LANGUAGES -->
 
 <h3 align="center">03 | MOST USED PROGRAMMING LANGUAGES</h3>
@@ -77,7 +75,6 @@
     alt="Most Used Programming Languages"
   />
 </p>
-
 <!-- CONTRIBUTION ACTIVITY GRAPH -->
 
 <h3 align="center">04 | CONTRIBUTION ACTIVITY</h3>
