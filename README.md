@@ -55,7 +55,6 @@
         alt="GitHub Statistics"
       />
     </td>
-
     <!-- 2. Contribution Streak -->
     <td width="33%" align="center">
       <img
@@ -64,7 +63,6 @@
         alt="GitHub Contribution Streak"
       />
     </td>
-
     <!-- 3. Most Used Programming Languages -->
     <td width="33%" align="center">
       <img
