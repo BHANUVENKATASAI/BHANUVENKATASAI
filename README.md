@@ -47,7 +47,6 @@
 <!-- Three Dynamic Cards - Horizontal Layout -->
 <table align="center">
   <tr>
-
     <!-- 1. GitHub Statistics -->
     <td width="33%" align="center">
       <img
