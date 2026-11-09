@@ -38,8 +38,6 @@
   <img src="assets/analytics.svg" width="100%" alt="GitHub Analytics"/>
 </div>
 
-<br/>
-
 <!-- ===================== GITHUB STATISTICS ===================== -->
 <div align="center">
   <img
