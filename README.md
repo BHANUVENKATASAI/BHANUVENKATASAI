@@ -32,58 +32,64 @@
 </div>
 
 <br/>
-<!-- ============== ANIMATED GITHUB ANALYTICS ============== -->
+<!-- =============== GITHUB ANALYTICS =============== -->
 
-<!-- Animated Typing Title -->
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2500&pause=1000&color=E7A1B1&center=true&vCenter=true&width=650&lines=GITHUB+ANALYTICS;MY+CODING+ACTIVITY;CONTINUOUS+LEARNING+%26+GROWTH"
-    alt="Animated GitHub Analytics Title"
-  />
-</p>
-
-<!-- Animated Banner -->
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:160A10,50:542037,100:160A10&fontColor=F5E8EC&section=header&animation=twinkling"
+    src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:160A10,50:4A142C,100:160A10&text=GITHUB%20ANALYTICS&fontSize=32&fontColor=F5E8EC&fontAlignY=40&desc=CODE%20%7C%20CONTRIBUTE%20%7C%20GROW&descSize=13&descAlignY=62"
     width="100%"
-    alt="Animated Burgundy Banner"
+    alt="GitHub Analytics Burgundy Banner"
   />
 </p>
 
-<!-- 01 - GITHUB STATISTICS -->
-<h2 align="center">01 | 📊 GITHUB STATISTICS</h2>
+<table>
+  <tr>
+    <td width="33.33%" align="center">
+      <h3>01 · GitHub Statistics</h3>
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&hide_border=true&include_all_commits=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC"
+        width="100%"
+        alt="GitHub Statistics"
+      />
+    </td>
+
+    <td width="33.33%" align="center">
+      <h3>02 · Contribution Streak</h3>
+      <img
+        src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&hide_border=true&background=160A10&ring=CF6C85&fire=E7A1B1&currStreakLabel=E7A1B1&sideLabels=F5E8EC&currStreakNum=F5E8EC&sideNums=F5E8EC&dates=BFAAB1"
+        width="100%"
+        alt="Contribution Streak"
+      />
+    </td>
+
+    <td width="33.33%" align="center">
+      <h3>03 · Most Used Languages</h3>
+      <img
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=6&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC"
+        width="100%"
+        alt="Most Used Programming Languages"
+      />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img
-    src="https://github-stats-extended.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&include_all_commits=true&hide_border=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC"
-    width="80%"
-    alt="GitHub Statistics"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=BHANUVENKATASAI&bg_color=160A10&color=E7A1B1&line=CF6C85&point=F5E8EC&area=true&hide_border=true&custom_title=Contribution%20Activity"
+    width="100%"
+    alt="GitHub Contribution Activity Graph"
   />
 </p>
-
-<!-- 02 - CONTRIBUTION STREAK -->
-<h2 align="center">02 | 🔥 CONTRIBUTION STREAK</h2>
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&hide_border=true&background=160A10&ring=CF6C85&fire=E7A1B1&currStreakLabel=E7A1B1&sideLabels=F5E8EC&currStreakNum=F5E8EC&sideNums=F5E8EC&dates=BFAAB1"
-    width="80%"
-    alt="GitHub Contribution Streak"
+    src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:160A10,50:4A142C,100:160A10"
+    width="100%"
+    alt="Burgundy Footer"
   />
 </p>
 
-<!-- 03 - MOST USED LANGUAGES -->
-<h2 align="center">03 | 💻 MOST USED PROGRAMMING LANGUAGES</h2>
-
-<p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC"
-    width="80%"
-    alt="Most Used Programming Languages"
-  />
-</p>
-
+<!-- =============== END GITHUB ANALYTICS =============== -->
 <!-- 04 - ANIMATED CONTRIBUTION SNAKE -->
 <h2 align="center">04 | 🐍 CONTRIBUTION JOURNEY</h2>
 
