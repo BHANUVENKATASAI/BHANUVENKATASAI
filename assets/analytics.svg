@@ -2,12 +2,35 @@
 
 <div align="center">
 
+  <!-- Analytics Banner -->
   <a href="https://github.com/BHANUVENKATASAI/BHANUVENKATASAI/blob/main/assets/analytics.svg">
     <img
-      src="https://github.com/BHANUVENKATASAI/BHANUVENKATASAI/raw/main/assets/analytics.svg"
+      src="assets/analytics.svg"
       width="100%"
       alt="GitHub Analytics"
     />
   </a>
 
+  <br/><br/>
+
+  <!-- GitHub Statistics -->
+  <a href="https://github.com/BHANUVENKATASAI">
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&include_all_commits=true&hide_border=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC&ring_color=CF6C85&cache_seconds=86400"
+      width="49%"
+      alt="GitHub Statistics"
+    />
+  </a>
+
+  <!-- Most Used Programming Languages -->
+  <a href="https://github.com/BHANUVENKATASAI">
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC&cache_seconds=86400"
+      width="49%"
+      alt="Most Used Programming Languages"
+    />
+  </a>
+
 </div>
+
+<!-- =============== END ANALYTICS =============== -->
