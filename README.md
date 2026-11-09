@@ -43,24 +43,6 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&hide_border=true&background=160A10&ring=CF6C85&fire=E7A1B1&currStreakLabel=E7A1B1&sideLabels=F5E8EC&currStreakNum=F5E8EC&sideNums=F5E8EC" width="70%" alt="GitHub Streak"/>
 </p>
-
-<div align="center">
-
-  <img height="180"
-    src="https://github-readme-stats.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC"
-    alt="GitHub Statistics"/>
-
-  <img height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC"
-    alt="Most Used Languages"/>
-
-</div>
-
-<p align="center">
-  <img width="70%"
-    src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&theme=dark&hide_border=true&background=160A10&ring=CF6C85&fire=E7A1B1&currStreakLabel=E7A1B1&sideLabels=F5E8EC&currStreakNum=F5E8EC&sideNums=F5E8EC&dates=BFAAB1"
-    alt="GitHub Contribution Streak"/>
-</p>
 <br/>
 
 <!-- ===================== MOST USED LANGUAGES ===================== -->
