@@ -32,49 +32,79 @@
 </div>
 
 <br/>
-<!-- ================= GITHUB ANALYTICS ================= -->
+<!-- ============== ANIMATED GITHUB ANALYTICS ============== -->
 
-<!-- Dynamic SVG Title Banner -->
+<!-- Animated Typing Title -->
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:160A10,100:3A1022&text=GITHUB%20ANALYTICS&fontColor=F5E8EC&fontSize=32&fontAlignY=45&desc=LIVE%20PROFILE%20INSIGHTS&descSize=13&descAlignY=75"
-    width="100%"
-    alt="GitHub Analytics"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2500&pause=1000&color=E7A1B1&center=true&vCenter=true&width=650&lines=GITHUB+ANALYTICS;MY+CODING+ACTIVITY;CONTINUOUS+LEARNING+%26+GROWTH"
+    alt="Animated GitHub Analytics Title"
   />
 </p>
 
-<!-- Three Dynamic Cards - Horizontal Layout -->
-<table align="center">
-  <tr>
-    <!-- 1. GitHub Statistics -->
-    <td width="33%" align="center">
-      <img
-        src="https://github-stats-extended.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&include_all_commits=true&hide_border=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC&card_width=320"
-        width="100%"
-        alt="GitHub Statistics"
-      />
-    </td>
-    <!-- 2. Contribution Streak -->
-    <td width="33%" align="center">
-      <img
-        src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&hide_border=true&background=160A10&ring=CF6C85&fire=E7A1B1&currStreakLabel=E7A1B1&sideLabels=F5E8EC&currStreakNum=F5E8EC&sideNums=F5E8EC&dates=BFAAB1&card_width=320"
-        width="100%"
-        alt="GitHub Contribution Streak"
-      />
-    </td>
-    <!-- 3. Most Used Programming Languages -->
-    <td width="33%" align="center">
-      <img
-        src="https://github-stats-extended.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC&card_width=320"
-        width="100%"
-        alt="Most Used Programming Languages"
-      />
-    </td>
+<!-- Animated Banner -->
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:160A10,50:542037,100:160A10&fontColor=F5E8EC&section=header&animation=twinkling"
+    width="100%"
+    alt="Animated Burgundy Banner"
+  />
+</p>
 
-  </tr>
-</table>
+<!-- 01 - GITHUB STATISTICS -->
+<h2 align="center">01 | 📊 GITHUB STATISTICS</h2>
 
-<!-- ================= END ANALYTICS ================= -->
+<p align="center">
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&include_all_commits=true&hide_border=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC"
+    width="80%"
+    alt="GitHub Statistics"
+  />
+</p>
+
+<!-- 02 - CONTRIBUTION STREAK -->
+<h2 align="center">02 | 🔥 CONTRIBUTION STREAK</h2>
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=BHANUVENKATASAI&hide_border=true&background=160A10&ring=CF6C85&fire=E7A1B1&currStreakLabel=E7A1B1&sideLabels=F5E8EC&currStreakNum=F5E8EC&sideNums=F5E8EC&dates=BFAAB1"
+    width="80%"
+    alt="GitHub Contribution Streak"
+  />
+</p>
+
+<!-- 03 - MOST USED LANGUAGES -->
+<h2 align="center">03 | 💻 MOST USED PROGRAMMING LANGUAGES</h2>
+
+<p align="center">
+  <img
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC"
+    width="80%"
+    alt="Most Used Programming Languages"
+  />
+</p>
+
+<!-- 04 - ANIMATED CONTRIBUTION SNAKE -->
+<h2 align="center">04 | 🐍 CONTRIBUTION JOURNEY</h2>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/BHANUVENKATASAI/BHANUVENKATASAI/output/github-contribution-grid-snake-dark.svg"
+    width="100%"
+    alt="Animated GitHub Contribution Snake"
+  />
+</p>
+
+<!-- Animated Footer -->
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:160A10,50:542037,100:160A10&section=footer"
+    width="100%"
+    alt="Burgundy Animated Footer"
+  />
+</p>
+
+<!-- ============== END GITHUB ANALYTICS ============== -->
 <br/>
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
