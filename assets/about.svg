@@ -1,225 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="570" viewBox="0 0 1200 570">
+<svg width="1200" height="600" viewBox="0 0 1200 600"
+xmlns="http://www.w3.org/2000/svg">
 
 <defs>
-  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#10090D"/>
-    <stop offset="50%" stop-color="#28101B"/>
-    <stop offset="100%" stop-color="#4A182B"/>
-  </linearGradient>
-
-  <linearGradient id="rose" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#64243D"/>
-    <stop offset="50%" stop-color="#A64D69"/>
-    <stop offset="100%" stop-color="#E7A0B4"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="600">
+    <stop stop-color="#10070D"/>
+    <stop offset="0.5" stop-color="#29101B"/>
+    <stop offset="1" stop-color="#160A12"/>
   </linearGradient>
 
   <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#351522"/>
-    <stop offset="100%" stop-color="#1A0C13"/>
+    <stop stop-color="#351522"/>
+    <stop offset="1" stop-color="#1B0C14"/>
   </linearGradient>
 
-  <pattern id="grid" width="35" height="35"
-           patternUnits="userSpaceOnUse">
-    <path d="M35 0H0V35" fill="none"
-          stroke="#E7A0B4" stroke-opacity=".08"/>
-  </pattern>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#8F2942"/>
+    <stop offset="0.5" stop-color="#E7A1B1"/>
+    <stop offset="1" stop-color="#8F2942"/>
+  </linearGradient>
 
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="9"/>
-  </filter>
+  <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+    <path d="M35 0H0V35" stroke="#B85A72" stroke-opacity="0.08"/>
+  </pattern>
 </defs>
 
-<!-- Background -->
-<rect width="1200" height="570" rx="22" fill="url(#background)"/>
-<rect width="1200" height="570" rx="22" fill="url(#grid)"/>
+<rect width="1200" height="600" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="600" rx="22" fill="url(#grid)"/>
 
-<!-- Animated atmosphere -->
-<circle cx="1000" cy="100" r="150"
-        fill="#A64D69" opacity=".13" filter="url(#glow)">
-  <animate attributeName="r"
-           values="110;190;110"
-           dur="7s" repeatCount="indefinite"/>
-</circle>
+<rect x="2" y="2" width="1196" height="596" rx="20"
+stroke="#8F2942" stroke-opacity="0.65"/>
 
-<!-- Moving light -->
-<rect x="-300" y="0" width="180" height="570"
-      fill="url(#rose)" opacity=".13">
-  <animate attributeName="x"
-           values="-300;1400"
-           dur="10s" repeatCount="indefinite"/>
+<text x="600" y="65" text-anchor="middle"
+font-family="Verdana" font-size="29" font-weight="bold"
+fill="#FCEBF0" letter-spacing="4">
+ABOUT ME
+</text>
+
+<rect x="500" y="82" width="200" height="3" rx="2" fill="url(#line)">
+  <animate attributeName="width" values="100;200;100"
+  dur="5s" repeatCount="indefinite"/>
 </rect>
 
-<!-- Heading -->
-<text x="55" y="65"
-      fill="#E7A0B4"
-      font-family="Arial"
-      font-size="16"
-      letter-spacing="5">
-  01 / PERSONAL PROFILE
+<!-- IDENTITY -->
+
+<rect x="45" y="120" width="535" height="135" rx="16"
+fill="url(#card)" stroke="#8F2942"/>
+
+<text x="75" y="158" fill="#E7A1B1"
+font-family="Verdana" font-size="15" letter-spacing="2">
+01 / IDENTITY
 </text>
 
-<text x="55" y="115"
-      fill="#F8EDEF"
-      font-family="Arial"
-      font-size="39"
-      font-weight="bold">
-  ABOUT ME
+<text x="75" y="195" fill="#FFF1F4"
+font-family="Verdana" font-size="22" font-weight="bold">
+Computer Science Graduate
 </text>
 
-<path d="M55 135 H1145"
-      stroke="url(#rose)" stroke-width="2"
-      stroke-dasharray="10 8">
-  <animate attributeName="stroke-dashoffset"
-           from="0" to="-100"
-           dur="6s" repeatCount="indefinite"/>
+<text x="75" y="225" fill="#D8B9C2"
+font-family="Verdana" font-size="14">
+Passionate about building useful software and intelligent systems.
+</text>
+
+<!-- EDUCATION -->
+
+<rect x="620" y="120" width="535" height="135" rx="16"
+fill="url(#card)" stroke="#8F2942"/>
+
+<text x="650" y="158" fill="#E7A1B1"
+font-family="Verdana" font-size="15" letter-spacing="2">
+02 / EDUCATION
+</text>
+
+<text x="650" y="195" fill="#FFF1F4"
+font-family="Verdana" font-size="21" font-weight="bold">
+B.Tech — Computer Science &amp; Engineering
+</text>
+
+<text x="650" y="225" fill="#D8B9C2"
+font-family="Verdana" font-size="14">
+Kalasalingam Academy of Research and Education
+</text>
+
+<!-- ACADEMICS -->
+
+<rect x="45" y="280" width="535" height="125" rx="16"
+fill="url(#card)" stroke="#8F2942"/>
+
+<text x="75" y="318" fill="#E7A1B1"
+font-family="Verdana" font-size="15" letter-spacing="2">
+03 / ACADEMIC PERFORMANCE
+</text>
+
+<text x="75" y="365" fill="#FFF1F4"
+font-family="Verdana" font-size="30" font-weight="bold">
+8.53 CGPA
+</text>
+
+<text x="330" y="365" fill="#D8B9C2"
+font-family="Verdana" font-size="16">
+2026 Graduate
+</text>
+
+<!-- CAREER -->
+
+<rect x="620" y="280" width="535" height="125" rx="16"
+fill="url(#card)" stroke="#8F2942"/>
+
+<text x="650" y="318" fill="#E7A1B1"
+font-family="Verdana" font-size="15" letter-spacing="2">
+04 / CAREER FOCUS
+</text>
+
+<text x="650" y="355" fill="#FFF1F4"
+font-family="Verdana" font-size="20" font-weight="bold">
+Java Full Stack Development
+</text>
+
+<text x="650" y="380" fill="#D8B9C2"
+font-family="Verdana" font-size="14">
+AI / ML • Backend Engineering • Web Applications
+</text>
+
+<!-- GATE -->
+
+<rect x="45" y="430" width="1110" height="110" rx="16"
+fill="url(#card)" stroke="#B85A72" stroke-opacity="0.8"/>
+
+<text x="75" y="470" fill="#E7A1B1"
+font-family="Verdana" font-size="15" letter-spacing="2">
+05 / LEARNING JOURNEY
+</text>
+
+<text x="75" y="510" fill="#FFF1F4"
+font-family="Verdana" font-size="24" font-weight="bold">
+GATE 2027
+</text>
+
+<text x="330" y="510" fill="#D8B9C2"
+font-family="Verdana" font-size="16">
+Computer Science — Primary Focus
+</text>
+
+<text x="780" y="510" fill="#D8B9C2"
+font-family="Verdana" font-size="16">
+Data Science &amp; AI — Secondary Focus
+</text>
+
+<path d="M45 570H1155" stroke="url(#line)" stroke-width="2">
+  <animate attributeName="stroke-dasharray"
+  values="0 1100;1100 0" dur="5s" repeatCount="indefinite"/>
 </path>
-
-<!-- Identity card -->
-<rect x="55" y="165" width="1090" height="110"
-      rx="16" fill="url(#card)"
-      stroke="#A64D69" stroke-opacity=".7"/>
-
-<rect x="55" y="165" width="5" height="110"
-      rx="2" fill="#E7A0B4"/>
-
-<text x="85" y="205"
-      fill="#E7A0B4"
-      font-family="Arial"
-      font-size="14"
-      letter-spacing="3">
-  SOFTWARE DEVELOPER & TECHNOLOGY ENTHUSIAST
-</text>
-
-<text x="85" y="245"
-      fill="#FFFFFF"
-      font-family="Arial"
-      font-size="30"
-      font-weight="bold">
-  JAWALKAR BHANU VENKAT SAI
-</text>
-
-<!-- Education card -->
-<rect x="55" y="300" width="525" height="105"
-      rx="14" fill="url(#card)"
-      stroke="#873B55" stroke-opacity=".9"/>
-
-<text x="80" y="332"
-      fill="#E7A0B4"
-      font-family="Arial"
-      font-size="14"
-      letter-spacing="2">
-  EDUCATION
-</text>
-
-<text x="80" y="365"
-      fill="#F8EDEF"
-      font-family="Arial"
-      font-size="19"
-      font-weight="bold">
-  B.Tech — Computer Science
-</text>
-
-<text x="80" y="389"
-      fill="#D9C3CA"
-      font-family="Arial"
-      font-size="14">
-  Kalasalingam Academy of Research and Education
-</text>
-
-<!-- Academic card -->
-<rect x="600" y="300" width="545" height="105"
-      rx="14" fill="url(#card)"
-      stroke="#873B55" stroke-opacity=".9"/>
-
-<text x="625" y="332"
-      fill="#E7A0B4"
-      font-family="Arial"
-      font-size="14"
-      letter-spacing="2">
-  ACADEMIC PERFORMANCE
-</text>
-
-<text x="625" y="382"
-      fill="#FFFFFF"
-      font-family="Arial"
-      font-size="43"
-      font-weight="bold">
-  8.53
-</text>
-
-<text x="755" y="378"
-      fill="#D9C3CA"
-      font-family="Arial"
-      font-size="17">
-  CGPA  /  2026 GRADUATE
-</text>
-
-<!-- Career focus -->
-<rect x="55" y="430" width="525" height="95"
-      rx="14" fill="url(#card)"
-      stroke="#873B55" stroke-opacity=".9"/>
-
-<text x="80" y="461"
-      fill="#E7A0B4"
-      font-family="Arial"
-      font-size="14"
-      letter-spacing="2">
-  CAREER FOCUS
-</text>
-
-<text x="80" y="497"
-      fill="#F8EDEF"
-      font-family="Arial"
-      font-size="20"
-      font-weight="bold">
-  JAVA FULL STACK DEVELOPMENT
-</text>
-
-<text x="80" y="515"
-      fill="#D9C3CA"
-      font-family="Arial"
-      font-size="13">
-  AI / ML • Backend Engineering • Software Development
-</text>
-
-<!-- GATE focus -->
-<rect x="600" y="430" width="545" height="95"
-      rx="14" fill="url(#card)"
-      stroke="#873B55" stroke-opacity=".9"/>
-
-<text x="625" y="461"
-      fill="#E7A0B4"
-      font-family="Arial"
-      font-size="14"
-      letter-spacing="2">
-  CURRENT LEARNING JOURNEY
-</text>
-
-<text x="625" y="497"
-      fill="#FFFFFF"
-      font-family="Arial"
-      font-size="23"
-      font-weight="bold">
-  GATE 2027
-</text>
-
-<text x="800" y="496"
-      fill="#D9C3CA"
-      font-family="Arial"
-      font-size="16">
-  CS PRIMARY  /  DA SECONDARY
-</text>
-
-<!-- Animated bottom line -->
-<rect x="55" y="548" width="1090" height="2"
-      fill="#64243D"/>
-
-<rect x="55" y="548" width="100" height="2"
-      fill="#E7A0B4">
-  <animate attributeName="width"
-           values="100;1090;100"
-           dur="8s" repeatCount="indefinite"/>
-</rect>
 
 </svg>
