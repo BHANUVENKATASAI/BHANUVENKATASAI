@@ -1,64 +1,303 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="150" viewBox="0 0 1200 150">
+<svg width="1200" height="760" viewBox="0 0 1200 760"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
 
-<defs>
-  <linearGradient id="bg">
-    <stop stop-color="#10090D"/>
-    <stop offset=".5" stop-color="#28101B"/>
-    <stop offset="1" stop-color="#4A182B"/>
-  </linearGradient>
-  <linearGradient id="rose">
-    <stop stop-color="#64243D"/>
-    <stop offset=".5" stop-color="#A64D69"/>
-    <stop offset="1" stop-color="#E7A0B4"/>
-  </linearGradient>
-  <pattern id="grid" width="30" height="30"
-           patternUnits="userSpaceOnUse">
-    <path d="M30 0H0V30" fill="none"
-          stroke="#E7A0B4" stroke-opacity=".12"/>
-  </pattern>
-</defs>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="760">
+      <stop stop-color="#10070D"/>
+      <stop offset="0.5" stop-color="#1C0B14"/>
+      <stop offset="1" stop-color="#10070D"/>
+    </linearGradient>
 
-<rect width="1200" height="150" rx="16" fill="url(#bg)"/>
-<rect width="1200" height="150" rx="16" fill="url(#grid)"/>
+    <linearGradient id="wine" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#8F294B"/>
+      <stop offset="0.5" stop-color="#CF6C85"/>
+      <stop offset="1" stop-color="#8F294B"/>
+    </linearGradient>
 
-<circle cx="1000" cy="70" r="90" fill="#A64D69" opacity=".18">
-  <animate attributeName="r" values="70;120;70"
-           dur="5s" repeatCount="indefinite"/>
-</circle>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#28121E"/>
+      <stop offset="1" stop-color="#170B12"/>
+    </linearGradient>
 
-<path d="M550 120 Q750 20 950 100 T1200 50"
-      stroke="url(#rose)" stroke-width="2"
-      fill="none" stroke-dasharray="8 9">
-  <animate attributeName="stroke-dashoffset"
-           from="0" to="-100" dur="5s"
-           repeatCount="indefinite"/>
-</path>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#CF6C85"/>
+      <stop offset="1" stop-color="#E7A1B1"/>
+    </linearGradient>
 
-<rect x="-250" y="0" width="180" height="150"
-      fill="url(#rose)" opacity=".25">
-  <animate attributeName="x"
-           values="-250;1300" dur="8s"
-           repeatCount="indefinite"/>
-</rect>
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35" stroke="#CF6C85" stroke-opacity="0.055"/>
+    </pattern>
 
-<text x="65" y="72" fill="#F8EDEF"
-      font-family="Arial" font-size="38"
-      font-weight="bold" letter-spacing="4">
-  SELECTED WORK
-</text>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-<text x="68" y="108" fill="#E7A0B4"
-      font-family="Arial" font-size="15"
-      letter-spacing="3">
-  IDEAS INTO APPLICATIONS
-</text>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
-<rect x="65" y="122" width="180" height="2"
-      rx="2" fill="#E7A0B4">
-  <animate attributeName="width"
-           values="50;250;180" dur="4s"
-           repeatCount="indefinite"/>
-</rect>
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="760" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="760" rx="24" fill="url(#grid)"/>
+
+  <!-- ANIMATED BACKGROUND LIGHT -->
+
+  <circle cx="150" cy="100" r="110" fill="#A83259" opacity="0.08">
+    <animate attributeName="opacity"
+             values="0.04;0.13;0.04"
+             dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1050" cy="650" r="150" fill="#CF6C85" opacity="0.07">
+    <animate attributeName="opacity"
+             values="0.03;0.11;0.03"
+             dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- TOP ACCENT -->
+
+  <rect x="0" y="0" width="1200" height="5" fill="url(#wine)">
+    <animate attributeName="opacity"
+             values="0.6;1;0.6"
+             dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- HEADER -->
+
+  <text x="600" y="75"
+        text-anchor="middle"
+        fill="#E7A1B1"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="15"
+        letter-spacing="6">
+    BUILD • CREATE • INNOVATE
+  </text>
+
+  <text x="600" y="132"
+        text-anchor="middle"
+        fill="#F5E8EC"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="43"
+        font-weight="800"
+        letter-spacing="2">
+    FEATURED PROJECTS
+  </text>
+
+  <rect x="465" y="151" width="270" height="3" rx="2"
+        fill="url(#accent)" filter="url(#glow)">
+    <animate attributeName="width"
+             values="180;270;180"
+             dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x"
+             values="510;465;510"
+             dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="187"
+        text-anchor="middle"
+        fill="#B88C99"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="15">
+    Turning ideas into practical technology solutions
+  </text>
+
+  <!-- PROJECT CARD 1 -->
+
+  <rect x="55" y="225" width="1090" height="145" rx="18"
+        fill="url(#card)" stroke="#78334D" stroke-width="1.5"/>
+
+  <rect x="55" y="225" width="5" height="145" rx="2"
+        fill="#CF6C85"/>
+
+  <circle cx="112" cy="276" r="27"
+          fill="#482033" stroke="#CF6C85" stroke-width="1.5"/>
+
+  <text x="112" y="285"
+        text-anchor="middle"
+        font-size="26"
+        fill="#F5E8EC">
+    01
+  </text>
+
+  <text x="165" y="263"
+        fill="#F5E8EC"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="23"
+        font-weight="700">
+    Annapurna
+  </text>
+
+  <text x="165" y="291"
+        fill="#E7A1B1"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14"
+        font-weight="600">
+    SMART FOOD WASTE REDUCTION SYSTEM
+  </text>
+
+  <text x="165" y="320"
+        fill="#C9AEB8"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14">
+    A smart food management solution designed to support food waste reduction.
+  </text>
+
+  <text x="165" y="345"
+        fill="#A98B98"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="12">
+    REACT  •  PYTHON  •  FASTAPI  •  SQLALCHEMY  •  YOLOv8
+  </text>
+
+  <rect x="965" y="250" width="145" height="34" rx="17"
+        fill="#492033" stroke="#CF6C85"/>
+
+  <text x="1037" y="272"
+        text-anchor="middle"
+        fill="#E7A1B1"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="12"
+        font-weight="700">
+    AI + FULL STACK
+  </text>
+
+  <!-- PROJECT CARD 2 -->
+
+  <rect x="55" y="390" width="1090" height="145" rx="18"
+        fill="url(#card)" stroke="#78334D" stroke-width="1.5"/>
+
+  <rect x="55" y="390" width="5" height="145" rx="2"
+        fill="#A84262"/>
+
+  <circle cx="112" cy="441" r="27"
+          fill="#482033" stroke="#CF6C85" stroke-width="1.5"/>
+
+  <text x="112" y="450"
+        text-anchor="middle"
+        font-size="26"
+        fill="#F5E8EC">
+    02
+  </text>
+
+  <text x="165" y="428"
+        fill="#F5E8EC"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="23"
+        font-weight="700">
+    Health Device Anomaly Detection
+  </text>
+
+  <text x="165" y="456"
+        fill="#E7A1B1"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14"
+        font-weight="600">
+    MACHINE LEARNING BASED ANOMALY DETECTION
+  </text>
+
+  <text x="165" y="485"
+        fill="#C9AEB8"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14">
+    Identifying unusual patterns in health-device data using machine learning.
+  </text>
+
+  <text x="165" y="510"
+        fill="#A98B98"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="12">
+    PYTHON  •  FLASK  •  PANDAS  •  SCIKIT-LEARN  •  ISOLATION FOREST
+  </text>
+
+  <rect x="965" y="415" width="145" height="34" rx="17"
+        fill="#492033" stroke="#CF6C85"/>
+
+  <text x="1037" y="437"
+        text-anchor="middle"
+        fill="#E7A1B1"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="12"
+        font-weight="700">
+    AI + ML
+  </text>
+
+  <!-- PROJECT CARD 3 -->
+
+  <rect x="55" y="555" width="1090" height="145" rx="18"
+        fill="url(#card)" stroke="#78334D" stroke-width="1.5"/>
+
+  <rect x="55" y="555" width="5" height="145" rx="2"
+        fill="#E7A1B1"/>
+
+  <circle cx="112" cy="606" r="27"
+          fill="#482033" stroke="#CF6C85" stroke-width="1.5"/>
+
+  <text x="112" y="615"
+        text-anchor="middle"
+        font-size="26"
+        fill="#F5E8EC">
+    03
+  </text>
+
+  <text x="165" y="593"
+        fill="#F5E8EC"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="23"
+        font-weight="700">
+    Multimodal Emergency Response System
+  </text>
+
+  <text x="165" y="621"
+        fill="#E7A1B1"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14"
+        font-weight="600">
+    COMPUTER VISION + AUDIO PROCESSING
+  </text>
+
+  <text x="165" y="650"
+        fill="#C9AEB8"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14">
+    Combining visual and audio processing technologies for emergency response.
+  </text>
+
+  <text x="165" y="675"
+        fill="#A98B98"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="12">
+    PYTHON  •  YOLOv8  •  WHISPER  •  FASTAPI  •  OPENCV  •  STREAMLIT
+  </text>
+
+  <rect x="965" y="580" width="145" height="34" rx="17"
+        fill="#492033" stroke="#CF6C85"/>
+
+  <text x="1037" y="602"
+        text-anchor="middle"
+        fill="#E7A1B1"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="12"
+        font-weight="700">
+    MULTIMODAL AI
+  </text>
+
+  <!-- ANIMATED BOTTOM LINE -->
+
+  <rect x="0" y="755" width="1200" height="5"
+        fill="url(#wine)">
+    <animate attributeName="opacity"
+             values="0.5;1;0.5"
+             dur="3s" repeatCount="indefinite"/>
+  </rect>
 
 </svg>
