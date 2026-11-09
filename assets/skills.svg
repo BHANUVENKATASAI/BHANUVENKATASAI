@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="150" viewBox="0 0 1200 150">
+
+<defs>
+  <linearGradient id="bg">
+    <stop stop-color="#10090D"/>
+    <stop offset=".5" stop-color="#28101B"/>
+    <stop offset="1" stop-color="#4A182B"/>
+  </linearGradient>
+  <linearGradient id="rose">
+    <stop stop-color="#64243D"/>
+    <stop offset=".5" stop-color="#A64D69"/>
+    <stop offset="1" stop-color="#E7A0B4"/>
+  </linearGradient>
+  <pattern id="grid" width="30" height="30"
+           patternUnits="userSpaceOnUse">
+    <path d="M30 0H0V30" fill="none"
+          stroke="#E7A0B4" stroke-opacity=".12"/>
+  </pattern>
+</defs>
+
+<rect width="1200" height="150" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="150" rx="16" fill="url(#grid)"/>
+
+<circle cx="1000" cy="70" r="90" fill="#A64D69" opacity=".18">
+  <animate attributeName="r" values="70;120;70"
+           dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<path d="M550 120 Q750 20 950 100 T1200 50"
+      stroke="url(#rose)" stroke-width="2"
+      fill="none" stroke-dasharray="8 9">
+  <animate attributeName="stroke-dashoffset"
+           from="0" to="-100" dur="5s"
+           repeatCount="indefinite"/>
+</path>
+
+<rect x="-250" y="0" width="180" height="150"
+      fill="url(#rose)" opacity=".25">
+  <animate attributeName="x"
+           values="-250;1300" dur="8s"
+           repeatCount="indefinite"/>
+</rect>
+
+<text x="65" y="72" fill="#F8EDEF"
+      font-family="Arial" font-size="38"
+      font-weight="bold" letter-spacing="4">
+  TECH STACK
+</text>
+
+<text x="68" y="108" fill="#E7A0B4"
+      font-family="Arial" font-size="15"
+      letter-spacing="3">
+  TOOLS I BUILD WITH
+</text>
+
+<rect x="65" y="122" width="180" height="2"
+      rx="2" fill="#E7A0B4">
+  <animate attributeName="width"
+           values="50;250;180" dur="4s"
+           repeatCount="indefinite"/>
+</rect>
+
+</svg>
