@@ -52,7 +52,6 @@
         alt="GitHub Statistics"
       />
     </td>
-
     <td width="33.33%" align="center">
       <h3>02 · Contribution Streak</h3>
       <img
@@ -61,7 +60,6 @@
         alt="Contribution Streak"
       />
     </td>
-
     <td width="33.33%" align="center">
       <h3>03 · Most Used Languages</h3>
       <img
