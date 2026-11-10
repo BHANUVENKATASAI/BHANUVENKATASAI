@@ -40,26 +40,15 @@
 
 <br/>
 
-<!-- ===================== GITHUB STATISTICS ===================== -->
 <div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&include_all_commits=true&hide_border=true&bg_color=160A10&title_color=E7A1B1&icon_color=CF6C85&text_color=F5E8EC&ring_color=CF6C85"
-    width="70%"
-    alt="GitHub Statistics"
-  />
+  <img src="YOUR_GITHUB_STATS_IMAGE_URL" />
+  <img src="YOUR_STREAK_IMAGE_URL" />
+  <img src="YOUR_LANGUAGE_IMAGE_URL" />
 </div>
 
-<br/>
-
-<!-- ===================== MOST USED LANGUAGES ===================== -->
 <div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&bg_color=160A10&title_color=E7A1B1&text_color=F5E8EC"
-    width="55%"
-    alt="Most Used Programming Languages"
-  />
+  <img src="YOUR_CONTRIBUTION_GRAPH_IMAGE_URL" width="100%" />
 </div>
-
 <br/>
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
