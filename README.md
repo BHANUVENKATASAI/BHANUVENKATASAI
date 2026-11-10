@@ -87,17 +87,7 @@
   />
 </p>
 
-<!-- =============== END GITHUB ANALYTICS =============== -->
-<!-- 04 - ANIMATED CONTRIBUTION SNAKE -->
-<h2 align="center">04 | 🐍 CONTRIBUTION JOURNEY</h2>
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/BHANUVENKATASAI/BHANUVENKATASAI/output/github-contribution-grid-snake-dark.svg"
-    width="100%"
-    alt="Animated GitHub Contribution Snake"
-  />
-</p>
 
 <!-- Animated Footer -->
 <p align="center">
