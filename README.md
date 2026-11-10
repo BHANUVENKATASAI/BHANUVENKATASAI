@@ -44,21 +44,20 @@
 
 <br/>
 
-<!-- ===================== GITHUB ANALYTICS =============== -->
+<!-- ================= GITHUB ANALYTICS ================= -->
 
-<div align="center">
-  <img src="assets/analytics.svg" width="100%" alt="GitHub Analytics"/>
-</div>
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:160A10,50:4A142C,100:160A10&text=GITHUB%20ANALYTICS&fontSize=32&fontColor=F5E8EC&fontAlignY=40&desc=CODE%20%7C%20CONTRIBUTE%20%7C%20GROW&descSize=13&descAlignY=62"
+    width="100%"
+    alt="GitHub Analytics Banner"
+  />
+</p>
 
-<br/>
+<!-- THREE HORIZONTAL ANALYTICS CARDS -->
 
-<!-- THREE DYNAMIC SVG CARDS IN HORIZONTAL LAYOUT -->
-
-<table width="100%">
+<table>
   <tr>
-
-    <!-- 01: GITHUB STATISTICS -->
-
     <td width="33.33%" align="center" valign="top">
 
       <h3>01 · GitHub Statistics</h3>
@@ -70,8 +69,6 @@
       />
 
     </td>
-
-    <!-- 02: CONTRIBUTION STREAK -->
 
     <td width="33.33%" align="center" valign="top">
 
@@ -85,8 +82,6 @@
 
     </td>
 
-    <!-- 03: MOST USED LANGUAGES -->
-
     <td width="33.33%" align="center" valign="top">
 
       <h3>03 · Most Used Languages</h3>
@@ -98,10 +93,38 @@
       />
 
     </td>
-
   </tr>
 </table>
 
+<br/>
+
+<!-- FULL-WIDTH CONTRIBUTION ACTIVITY GRAPH -->
+
+<h3 align="center">Contribution Activity</h3>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=BHANUVENKATASAI&bg_color=160A10&color=E7A1B1&line=CF6C85&point=F5E8EC&area=true&hide_border=true&custom_title=My%20GitHub%20Contribution%20Activity"
+    width="100%"
+    alt="GitHub Contribution Activity Graph"
+  />
+</p>
+
+<!-- ANALYTICS FOOTER -->
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&height=3&color=CF6C85"
+    width="70%"
+    alt="Burgundy Divider"
+  />
+</p>
+
+<p align="center">
+  <i>Consistency builds contribution. Contribution builds growth.</i>
+</p>
+
+<!-- ================= END GITHUB ANALYTICS ================= -->
 <br/>
 
 <!-- FULL WIDTH CONTRIBUTION ACTIVITY GRAPH -->
