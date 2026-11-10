@@ -16,8 +16,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub analytics SVGs
-        uses: seijikohara/profile-cards-action@v0
+      - name: Generate analytics
+        uses: seijikohara/profile-cards-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: BHANUVENKATASAI
