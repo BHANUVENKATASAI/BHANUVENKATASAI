@@ -32,23 +32,33 @@
 </div>
 
 <br/>
-
 <!-- ===================== GITHUB ANALYTICS ===================== -->
+
 <div align="center">
-  <img src="assets/analytics.svg" width="100%" alt="GitHub Analytics"/>
+  <img src="./assets/analytics.svg" width="100%" alt="GitHub Analytics Banner"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="YOUR_GITHUB_STATS_IMAGE_URL" />
-  <img src="YOUR_STREAK_IMAGE_URL" />
-  <img src="YOUR_LANGUAGE_IMAGE_URL" />
+
+  <h3>📊 GitHub Overview</h3>
+  <img src="./assets/overview.dark.svg" width="100%" alt="GitHub Overview Statistics"/>
+
+  <br/><br/>
+
+  <h3>🔥 Contribution Activity</h3>
+  <img src="./assets/contributions.dark.svg" width="100%" alt="GitHub Contribution Activity"/>
+
+  <br/><br/>
+
+  <h3>💻 Most Used Languages</h3>
+  <img src="./assets/languages.dark.svg" width="100%" alt="GitHub Language Distribution"/>
+
 </div>
 
-<div align="center">
-  <img src="YOUR_CONTRIBUTION_GRAPH_IMAGE_URL" width="100%" />
-</div>
+<br/>
+
 <br/>
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
