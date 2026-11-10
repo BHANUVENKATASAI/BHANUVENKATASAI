@@ -39,16 +39,18 @@
 
   <br/><br/>
 
+  <h3>📊 GitHub Statistics</h3>
   <a href="https://github.com/BHANUVENKATASAI">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&hide_border=true&theme=radical" alt="GitHub statistics"/>
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=BHANUVENKATASAI&show_icons=true&include_all_commits=true&hide_border=true&theme=radical" alt="GitHub statistics for BHANUVENKATASAI"/>
   </a>
   <a href="https://github.com/BHANUVENKATASAI">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BHANUVENKATASAI&layout=compact&hide_border=true&theme=radical" alt="Most used programming languages"/>
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=BHANUVENKATASAI&layout=compact&langs_count=8&hide_border=true&theme=radical" alt="Most used programming languages for BHANUVENKATASAI"/>
   </a>
 
   <br/><br/>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BHANUVENKATASAI&theme=redical&hide_border=true" width="100%" alt="GitHub contribution activity graph"/>
+  <h3>🔥 GitHub Contribution Activity</h3>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BHANUVENKATASAI&bg_color=141321&color=fe428e&line=fe428e&point=f8d847&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph for BHANUVENKATASAI"/>
 </div>
 
 <br/>
